@@ -1,0 +1,12 @@
+.Work {
+    margin: 90px 0px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--main-background-color);
+}
+.marginAuto{
+    margin: auto;
+}

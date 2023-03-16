@@ -1,0 +1,16 @@
+.Home {
+    width: 738px;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media (max-width:600px) {
+    .Home {
+        width: 100%;
+    }
+}

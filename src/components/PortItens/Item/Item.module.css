@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.Container {
+    width: 90vh;
+    border: 2px solid white;
+    background-color: rgba(121, 150, 238, 0.596);
+    border-radius: 10px;
+    transition: transform .5s;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.Container:hover {
+    transform: scale(1.05);
+    border: 2px solid black;
+    transition: 1s;
+    color: black;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.text {
+    font-family: 'Libre Franklin', sans-serif;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+
+}
+
+.center {
+
+    display: flex;
+    justify-content: center;
+}
+.circleNav{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: currentColor;
+    margin:0px 8px;
+}
+.topItem{
+    display: flex;
+    height: 50px;
+    border-bottom: 3px solid currentColor;
+    align-items: center;
+}
+.bottomItem{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+@media (max-width:720px) {
+    .Container {
+        width: 98%;
+     
+    }
+
+    .center {
+        width: 100%;
+    }
+    .bottomItem{
+    padding: 40px 20px;
+}
+}
+
+@media (max-width:480px) {
+.text {
+    font-size: 0.96rem;
+}
+}

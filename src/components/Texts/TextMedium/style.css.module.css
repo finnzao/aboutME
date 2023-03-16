@@ -1,0 +1,21 @@
+.TextMedium {
+
+    initial-letter: unset;
+}
+
+.TextMedium p {
+    word-spacing: 10px;
+    line-height: 24px;
+}
+
+.TextMedium mark {
+    background-color: grey;
+    color: cornsilk;
+}
+
+@media (max-width:500px) {
+    .TextMedium p {
+        word-spacing: 0px;
+        text-align: justify;
+    }
+}
