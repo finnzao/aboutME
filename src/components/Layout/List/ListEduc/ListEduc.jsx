@@ -16,3 +16,5 @@ function ListEduc(props) {
         </>
     )
 }
+
+export default ListEduc;
